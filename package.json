@@ -10,11 +10,11 @@
     "test": "turbo test"
   },
   "dependencies": {
-    "prettier": "^3.2.5",
-    "turbo": "^2.2.1",
-    "typescript": "^5.4.5",
     "@playwright/test": "^1.48.2",
-    "playwright": "^1.48.2"
+    "playwright": "^1.48.2",
+    "prettier": "^3.2.5",
+    "turbo": "^2.2.3",
+    "typescript": "^5.4.5"
   },
   "packageManager": "pnpm@8.15.6",
   "engines": {
