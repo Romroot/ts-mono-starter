@@ -32,6 +32,8 @@ module.exports = {
     "node_modules/",
     "dist/",
     "postcss.config.js",
+    "*.spec.tsx",
+    "*.spec.ts",
   ],
   overrides: [
     // Force ESLint to detect .tsx files
