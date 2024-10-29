@@ -21,6 +21,6 @@ jobs:
       - name: Send bundle stats to RelativeCI
         uses: relative-ci/agent-action@v2
         with:
-          webpackStatsFile: ./apps/app/webpack-stats.json
+          webpackStatsFile: webpack-stats.json
           key: ${{ secrets.RELATIVE_CI_KEY }}
           token: ${{ secrets.GITHUB_TOKEN }}
