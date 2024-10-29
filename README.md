@@ -1,5 +1,7 @@
 ## Typescript Monorepo [WIP]
 
+[![RelativeCI](https://badges.relative-ci.com/badges/xrxG4oANMNE22w8AhDYq?branch=master&style=flat)](https://app.relative-ci.com/projects/xrxG4oANMNE22w8AhDYq)
+
 ### Structure
 
 - app
@@ -26,10 +28,8 @@
 - [ ] Light documentation in readme
 - [ ] Lighthouse
 
+---
 
-
-
-----
 - [ ] Lighthouse
 - [ ] Documentation
 - [ ] bundle analyzer
