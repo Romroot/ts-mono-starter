@@ -6,7 +6,7 @@
   "main": "./src/index.tsx",
   "scripts": {
     "dev": "webpack-dev-server",
-    "build": "webpack"
+    "build": "webpack --mode production --json webpack-stats.json"
   },
   "dependencies": {
     "@babel/core": "^7.26.0",

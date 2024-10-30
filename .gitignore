@@ -12,3 +12,4 @@ target
 .turbo
 e2e-report
 e2e-results
+webpack-stats.json

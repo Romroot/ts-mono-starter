@@ -11,16 +11,8 @@ permissions:
 jobs:
   release:
     runs-on: ubuntu-latest
+    env:
+      RELATIVE_CI_KEY: ${{ secrets.RELATIVE_CI_KEY }}
     steps:
-      - name: Release
-        uses: google-github-actions/release-please-action@v3
-        with:
-          release-type: node
-          package-name: turbo-monorepo-template
-      # Send bundle stats and build information to RelativeCI
-      - name: Send bundle stats to RelativeCI
-        uses: relative-ci/agent-action@v2
-        with:
-          webpackStatsFile: webpack-stats.json
-          key: ${{ secrets.RELATIVE_CI_KEY }}
-          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Release Build
+        run: pnpm build

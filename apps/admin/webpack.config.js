@@ -1,5 +1,7 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const { RelativeCiAgentWebpackPlugin } = require("@relative-ci/agent");
+
 module.exports = {
   mode: "development",
   entry: "/src/index.js", // main js
@@ -28,7 +30,13 @@ module.exports = {
       },
     ],
   },
+  stats: {
+    assets: true,
+    chunks: true,
+    modules: true,
+  },
   plugins: [
+    new RelativeCiAgentWebpackPlugin({ enabled: true }),
     new HtmlWebpackPlugin({
       template: "./src/index.html", // base html
     }),
