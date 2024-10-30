@@ -4,7 +4,7 @@ import { createRoot } from "react-dom/client";
 function App() {
   return (
     <div className="App">
-      <h1>WEbpack hello world</h1>
+      <h1>Webpack hello world</h1>
     </div>
   );
 }
