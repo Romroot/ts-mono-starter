@@ -1,6 +1,11 @@
+"use client";
+
 import Image from "next/image";
+
+import lodash from "lodash";
 import styles from "./page.module.css";
 
+export const dynamic = "force-dynamic";
 export default function Home() {
   return (
     <div className={styles.page}>
@@ -15,6 +20,7 @@ export default function Home() {
         />
         <ol>
           <li>
+            {Object.keys(lodash)}
             Get started by editing <code>app/page.tsx</code>.
           </li>
           <li>Save and see your changes instantly.</li>
