@@ -13,6 +13,12 @@
     "react-dom": "19.0.0-rc-02c0e824-20241028",
     "next": "15.0.2"
   },
+  "nextBundleAnalysis": {
+    "budget": 102400,
+    "budgetPercentIncreaseRed": 20,
+    "minimumChangeThreshold": 0,
+    "showDetails": true
+  },
   "devDependencies": {
     "@repo/typescript-config": "workspace:*",
     "typescript": "^5",
