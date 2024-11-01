@@ -56,7 +56,7 @@ jobs:
 
         with:
           name: bundle
-          path: .next/analyze/__bundle_analysis.json
+          path: ./apps/next-app/.next/analyze/__bundle_analysis.json
 
       - name: Download base branch bundle stats
         uses: dawidd6/action-download-artifact@v2
@@ -65,7 +65,7 @@ jobs:
         with:
           workflow: nextjs_bundle_analysis.yml
           branch: ${{ github.event.pull_request.base.ref }}
-          path: .next/analyze/base
+          path: ./apps/next-app/.next/analyze/base
 
       - name: Compare with base branch bundle
         if: success() && github.event.number
