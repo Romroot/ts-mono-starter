@@ -1,10 +1,11 @@
 import React from "react";
+import lodash from "lodash";
 import { createRoot } from "react-dom/client";
 
 function App() {
   return (
     <div className="App">
-      <h1>Webpack hello world</h1>
+      <h1>Webpack hello world {Object.keys(lodash)}</h1>
     </div>
   );
 }
