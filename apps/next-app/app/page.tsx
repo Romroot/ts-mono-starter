@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-
+import { Button } from 'antd';
 import lodash from "lodash";
 import styles from "./page.module.css";
 
@@ -21,6 +21,7 @@ export default function Home() {
         <ol>
           <li>
             {Object.keys(lodash)}
+            <Button>Test</Button>
             Get started by editing <code>app/page.tsx</code>.
           </li>
           <li>Save and see your changes instantly.</li>
