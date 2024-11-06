@@ -21,15 +21,12 @@
 - [x] Library
 - [x] e2e-tests
 - [x] Storybook
-- [ ] CI/CD
-- [ ] Turborepo ENV
+- [x] CI/CD
 - [ ] Light documentation in readme
 - [ ] Lighthouse
 
+---
 
-
-
-----
 - [ ] Lighthouse
 - [ ] Documentation
 - [ ] bundle analyzer

@@ -15,7 +15,8 @@
     "lodash": "^4.17.21",
     "next": "15.0.2",
     "react": "19.0.0-rc-02c0e824-20241028",
-    "react-dom": "19.0.0-rc-02c0e824-20241028"
+    "react-dom": "19.0.0-rc-02c0e824-20241028",
+    "swr": "^2.2.5"
   },
   "nextBundleAnalysis": {
     "budget": 102400,
