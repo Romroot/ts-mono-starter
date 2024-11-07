@@ -1,45 +1,31 @@
-## Typescript Monorepo [WIP]
+## Typescript Monorepo Starter
+
+[![License](http://img.shields.io/:license-MIT-blue.svg)](https://raw.githubusercontent.com/Bessonov/monorepo-starter/master/LICENSE)
 
 ### Structure
 
-- app
-  - app - main app
-- libs
+```text
+/apps
+  /app - Vite web app with playwright tests
+  /admin - Webpack test
+  /docs - Storybook app
+  /next-app - Nextjs app
+/libs
   - ui - reusable components
-- configs
-  - eslint - eslint configs
-  - prettier - prettier configs
-  - typescript - typescript configs
-
-"@typescript-eslint/parser": "^7.1.0",
+/configs
+  /eslint-config - eslint configs
+  /prettier-config - prettier configs
+  /typescript-config - typescript configs
+  /playwright-config - eslint config
+```
 
 ### List
 
-- [x] Lint
-- [x] second app
-- [x] Test
-- [x] Library
-- [x] e2e-tests
-- [x] Storybook
-- [x] CI/CD
-- [ ] Light documentation in readme
-- [ ] Lighthouse
-
+- [x] Fix typescript highligh in IDE
 ---
 
-- [ ] Lighthouse
-- [ ] Documentation
-- [ ] bundle analyzer
-- [ ] Renovate
-- [ ] Code-mode
-- [ ] Build speed
-- [ ] Bundle over time
-- [ ] Code coverage
-- [ ] Storybook tests
-- [ ] Packagejson lint
-- [ ] Review rules
-- [ ] Precommit hook
-- [ ] Codeowners
-- [ ] Security - snyk
-- [ ] Sonarqube
-- [ ] Test storybook
+Other examples;
+
+- Typescript monorepo - https://github.com/NiGhTTraX/ts-monorepo
+- Example: https://github.com/aiherrera/turborepo-template
+- example https://github.com/Markkos89/turbo-monorepo-template
