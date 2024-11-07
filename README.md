@@ -11,20 +11,15 @@
   /docs - Storybook app
   /next-app - Nextjs app
 /libs
-  - ui - reusable components
+  /ui - reusable components
 /configs
-  /eslint-config - eslint configs
-  /prettier-config - prettier configs
-  /typescript-config - typescript configs
-  /playwright-config - eslint config
+  /eslint-config - Eslint configs
+  /prettier-config - Prettier configs
+  /typescript-config - Typescript configs
+  /playwright-config - Playwright config
 ```
 
-### List
-
-- [x] Fix typescript highligh in IDE
----
-
-Other examples;
+Other examples:
 
 - Typescript monorepo - https://github.com/NiGhTTraX/ts-monorepo
 - Example: https://github.com/aiherrera/turborepo-template
