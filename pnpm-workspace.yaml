@@ -1,4 +1,4 @@
 packages:
-  - "apps/*"
-  - "libs/*"
-  - "configs/*"
+  - 'apps/*'
+  - 'libs/*'
+  - 'configs/*'

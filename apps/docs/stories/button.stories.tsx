@@ -1,19 +1,19 @@
-import type { Meta, StoryObj } from "@storybook/react";
-import { Button } from "@repo/ui";
+import type { Meta, StoryObj } from '@storybook/react'
+import { Button } from '@repo/ui'
 
-const meta: Meta<typeof Button> = {
+const meta = {
   component: Button,
   argTypes: {
-    type: {
-      control: { type: "radio" },
-      options: ["button", "submit", "reset"],
+    htmlType: {
+      control: { type: 'radio' },
+      options: ['button', 'submit', 'reset'],
     },
   },
-};
+} satisfies Meta<typeof Button>
 
-export default meta;
+export default meta
 
-type Story = StoryObj<typeof Button>;
+type Story = StoryObj<typeof Button>
 
 /*
  *👇 Render functions are a framework specific feature to allow you control on how the component renders.
@@ -23,24 +23,24 @@ type Story = StoryObj<typeof Button>;
 export const Primary: Story = {
   render: (props) => (
     <Button
-      {...props}
       onClick={(): void => {
         // eslint-disable-next-line no-alert -- alert for demo
-        alert("Hello from Turborepo!");
+        alert('Hello from Turborepo!')
       }}
+      {...props}
     >
       Hello
     </Button>
   ),
-  name: "Button",
+  name: 'Button',
   args: {
-    children: "Hello",
-    type: "button",
+    children: 'Hello',
+    htmlType: 'button',
     style: {
-      color: "blue",
-      border: "1px solid gray",
+      color: 'blue',
+      border: '1px solid gray',
       padding: 10,
       borderRadius: 10,
     },
   },
-};
+}
