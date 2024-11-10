@@ -1,5 +1,5 @@
 {
   "extends": "@repo/typescript-config/react-library.json",
-  "include": ["vite.config.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["test/jestSetup.ts", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"]
 }
