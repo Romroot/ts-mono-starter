@@ -25,7 +25,6 @@
     "@types/react-dom": "^18",
     "eslint": "^8.57.0",
     "storybook": "^8.2.6",
-    "typescript": "5.5.4",
     "vite": "^5.1.4"
   }
 }
