@@ -1,5 +1,5 @@
 {
-  "name": "@repo/docs",
+  "name": "@repo/docs-storybook",
   "version": "0.0.0",
   "type": "module",
   "private": true,
