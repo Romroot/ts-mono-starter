@@ -10,6 +10,7 @@
   "scripts": {
     "lint": "eslint . --max-warnings 0",
     "build": "tsup src/index.ts",
+    "clean": "rm -rf dist .turbo",
     "test": "vitest run"
   },
   "dependencies": {

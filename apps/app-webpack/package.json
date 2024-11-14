@@ -6,6 +6,7 @@
   "main": "./src/index.tsx",
   "scripts": {
     "dev": "webpack-dev-server",
+    "clean": "rm -rf .next .turbo",
     "build": "webpack --mode production --json webpack-stats.json"
   },
   "dependencies": {

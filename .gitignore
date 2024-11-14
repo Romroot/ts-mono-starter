@@ -13,6 +13,7 @@ target
 e2e-report
 e2e-results
 webpack-stats.json
+apps/docs-storybook/public
 
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 

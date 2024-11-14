@@ -8,6 +8,7 @@
     "lint": "eslint . --max-warnings 0",
     "build": "vite build",
     "test": "jest",
+    "clean": "rm -rf .next .turbo",
     "test:coverage": "vitest --coverage",
     "test:e2e": "playwright test",
     "preview": "vite preview"
