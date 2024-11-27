@@ -5,8 +5,8 @@
   "private": true,
   "scripts": {
     "dev": "storybook dev -p 6006",
-    "clean": "rm -rf .next .turbo public",
-    "build": "storybook build --docs --disable-telemetry -o public"
+    "clean": "rm -rf .next .turbo dist",
+    "build": "storybook build --docs --disable-telemetry -o dist"
   },
   "dependencies": {
     "@repo/ui": "workspace:*",
